@@ -98,14 +98,17 @@ class LLMType(str, Enum):
     # Embeddings
     OpenAIEmbedding = "openai_embedding"
     AzureOpenAIEmbedding = "azure_openai_embedding"
+    QwenEmbedding = "qwen_embedding"
 
     # Raw Completion
     OpenAI = "openai"
     AzureOpenAI = "azure_openai"
+    Qwen = 'qwen'
 
     # Chat Completion
     OpenAIChat = "openai_chat"
     AzureOpenAIChat = "azure_openai_chat"
+    QwenChat = "qwen_chat"
 
     # Debug
     StaticResponse = "static_response"
